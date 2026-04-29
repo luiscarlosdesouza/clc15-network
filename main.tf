@@ -1,9 +1,10 @@
-resource "aws_vpc" "terraform_vpc" {
+resource "aws_vpc" "terraform_vpc_teste" {
   cidr_block       = "10.0.0.0/16"
   instance_tenancy = "default"
 
   tags = {
     Name = "tf-vpc"
+    CC = "123456"
   }
 }
 
