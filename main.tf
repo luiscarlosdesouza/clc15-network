@@ -6,7 +6,7 @@ resource "aws_vpc" "terraform_vpc" {
     Name = "tf-vpc"
     CC = "123456"
     Type = "automacao"
-    Owner = "Devops"
+    Owner = "DevOps"
   }
 }
 
